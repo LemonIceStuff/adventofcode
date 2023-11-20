@@ -3,6 +3,8 @@ import re
 max_size = 100000
 input = open("puzzle_input.txt", "r")
 
+"""
+
 class Directory:
     def __init__(self, parent, name, files, total_size=0):
         self.parent = parent #List of Directories
@@ -102,3 +104,6 @@ for dir in directories :
 
 print("La taille totale de ces dossiers est de: " + str(all_size))
 #Answer too low, we'll see next time
+# get info on defauldict from collections and accumulate from itertools
+#
+"""
